@@ -1,17 +1,28 @@
-<div class="login-page">
-    <div class="form">
-      <form class="register-form">
-        <input type="text" placeholder="name"/>
-        <input type="password" placeholder="password"/>
-        <input type="text" placeholder="email address"/>
-        <button>create</button>
-        <p class="message">Already registered? <a href="#">Sign In</a></p>
-      </form>
-      <form class="login-form">
-        <input type="text" placeholder="username"/>
-        <input type="password" placeholder="password"/>
-        <button>login</button>
-        <p class="message">Not registered? <a href="#">Create an account</a></p>
-      </form>
+<html>
+  <head>  
+    <link rel="stylesheet" href="./Login.css" type="text/css"/>
+  </head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <body>
+    <div class="login-page">
+        <div class="form">
+          <form class="register-form">
+            <input type="text" placeholder="nombre"/>
+            <input type="password" placeholder="contraseña"/>
+            <input type="text" placeholder="dirección de email"/>
+            <button>crear</button>
+            <button class="button-back"><a class="back" href="http://localhost:3000/">Volver</a></button>
+            <p class="message"> ¿Ya está registrado? <a href="#">Iniciar sesión</a></p>
+          </form>
+          <form class="login-form">
+            <input type="text" placeholder="nombre de usuario"/>
+            <input type="password" placeholder="contraseña"/>
+            <button>Iniciar</button>
+            <button class="button-back"><a class="back" href="http://localhost:3000/">Volver</a></button>
+            <p class="message">¿No se encuentra registrado? <a href="#">Crear una cuenta</a></p>
+          </form>
+        </div>
     </div>
-</div>
+  </body>
+  <script src="./Login.js" type="text/javascript"></script>
+</html>

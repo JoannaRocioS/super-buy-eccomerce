@@ -43,11 +43,6 @@ class App extends Component {
             <div className="humberger__menu__widget">
                 <div className="header__top__right__language">
                     <img src="img/language.png" alt=""/>
-                    <div>Español</div>
-                    <span className="arrow_carrot-down"></span>
-                    <ul>
-                        <li><a href="#">Español</a></li>
-                    </ul>
                 </div>
                 <div className="header__top__right__auth">
                     <a href="#"><i className="fa fa-user"></i> Iniciar</a>
@@ -56,16 +51,7 @@ class App extends Component {
             <nav className="humberger__menu__nav mobile-menu">
                 <ul>
                     <li className="active"><a href="./index.html">Inicio</a></li>
-                    <li><a href="./Tienda/shop-grid.html">Tienda</a></li>
-                    <li><a href="#">Páginas</a>
-                        <ul className="header__menu__dropdown">
-                            <li><a href="./Tienda/shop-details.html">Detalles de la tienda</a></li>
-                            <li><a href="./shoping-cart.html">Carrito de compras</a></li>
-                            <li><a href="./checkout.html">Ingreso</a></li>
-                            <li><a href="./blog-details.html">Blog: Detalles</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./shop-grid.html">Tienda</a></li>
                     <li><a href="./contact.html">Contacto</a></li>
                 </ul>
             </nav>
@@ -84,81 +70,65 @@ class App extends Component {
             </div>
         </div>
 
-            <header className="header">
-                <div className="header__top">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6 col-md-6">
-                                <div className="header__top__left">
-                                    <ul>
-                                        <li><i className="fa fa-envelope"></i> contacto@superbuy.com</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-6">
-                                <div className="header__top__right">
-                                    <div className="header__top__right__social">
-                                        <a href="#"><i className="fa fa-facebook"></i></a>
-                                        <a href="#"><i className="fa fa-twitter"></i></a>
-                                        <a href="#"><i className="fa fa-instagram"></i></a>
-                                    </div>
-                                    <div className="header__top__right__language">
-                                        <img src="img/language.png" alt=""/>
-                                        <div>Español</div>
-                                        <span className="arrow_carrot-down"></span>
-                                        <ul>
-                                            <li><a href="#">Español</a></li>
-                                            <li><a href="#">English</a></li>
-                                        </ul>
-                                    <div className="header__top__right__auth">
-                                        <a href="./Login.html"><i className="fa fa-user"></i> Iniciar sesión</a>
-                                    </div>
-                                </div>
-                            </div>
+        <header className="header">
+        <div className="header__top">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-6">
+                        <div className="header__top__left">
+                            <ul>
+                                <li><i className="fa fa-envelope"></i> contacto@superbuy.com</li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-3">
-                            <div className="header__logo">
-                                <a href="./index.html"><img src="img/logo.png" alt=""/></a>
+                    <div className="col-lg-6">
+                        <div className="header__top__right">
+                            <div className="header__top__right__social">
+                                <a href="#"><i className="fa fa-facebook"></i></a>
+                                <a href="#"><i className="fa fa-twitter"></i></a>
+                                <a href="#"><i className="fa fa-instagram"></i></a>
+                            </div>
+                            <div className="header__top__right__language">
+                                <img src="img/language.png" alt=""/>
+                                <span className="arrow_carrot-down"></span>
+                            </div>
+                            <div className="header__top__right__auth">
+                                <a href="./Login.html"><i className="fa fa-user"></i> Iniciar sesión</a>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <nav className="header__menu">
-                                <ul>
-                                    <li className="active"><a href="../App.js">Inicio</a></li>
-                                    <li><a href="./Tienda/shop-grid.html">Tienda</a></li>
-                                    <li><a href="#">Páginas</a>
-                                        <ul className="header__menu__dropdown">
-                                            <li><a href="./Tienda/shop-details.html">Detalle de la tienda</a></li>
-                                            <li><a href="./Tienda/shoping-cart.html">Shoping Cart</a></li>
-                                            <li><a href="./checkout.html">Check Out</a></li>
-                                            <li><a href="./Blog/blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="./blog.html">Blog</a></li>
-                                    <li><a href="./contact.html">Contacto</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div className="col-lg-3">
-                            <div className="header__cart">
-                                <ul>
-                                    <li><a href="#"><i className="fa fa-heart"></i> <span>1</span></a></li>
-                                    <li><a href="#"><i className="fa fa-shopping-bag"></i> <span>3</span></a></li>
-                                </ul>
-                                <div className="header__cart__price">Carrito: <span>$150.00</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="humberger__open">
-                        <i className="fa fa-bars"></i>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-3">
+                    <div className="header__logo">
+                        <a href="./index.html"><img src="img/logo.png" alt=""/></a>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <nav className="header__menu">
+                        <ul>
+                            <li><a href="./index.html">Inicio</a></li>
+                            <li><a href="./shop-grid.html">Tienda</a></li>
+                            <li className="active"><a href="./contact.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div className="col-lg-3">
+                    <div className="header__cart">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div classNameName="humberger__open">
+                <i classNameName="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
 
         <section class="hero">
             <div class="container">
@@ -171,16 +141,13 @@ class App extends Component {
                             </div>
                             <ul>
                                 <li><a href="#">Alimentos</a></li>
-                                <li><a href="#">Muebles</a></li>
                                 <li><a href="#">Ropa</a></li>
                                 <li><a href="#">Electrónica</a></li>
-                                <li><a href="#">Exterior</a></li>
-                                <li><a href="#">Bebés</a></li>
+                                <li><a href="#">Mundo Bebés</a></li>
                                 <li><a href="#">Mascotas</a></li>
-                                <li><a href="#">Celulares</a></li>
-                                <li><a href="#">Computación</a></li>
-                                <li><a href="#">Plantas</a></li>
-                                <li><a href="#">Construcción</a></li>
+                                <li><a href="#">Enlatados</a></li>
+                                <li><a href="#">Bebidas</a></li>
+                                <li><a href="#">Carnes</a></li>
                             </ul>
                         </div>
                     </div>
@@ -189,10 +156,10 @@ class App extends Component {
                             <div class="hero__search__form">
                                 <form action="#">
                                     <div class="hero__search__categories">
-                                        Todas las categorías
+                                        Categorías
                                         <span class="arrow_carrot-down"></span>
                                     </div>
-                                    <input type="text" placeholder="What do yo u need?"/>
+                                    <input type="text" placeholder="Búsqueda"/>
                                     <button type="submit" class="site-btn">BUSCAR</button>
                                 </form>
                             </div>
@@ -424,267 +391,6 @@ class App extends Component {
             </div>
         </div>
 
-        <section className="latest-product spad">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-4 col-md-6">
-                        <div className="latest-product__text">
-                            <h4>Últimos productos</h4>
-                            <div className="latest-product__slider owl-carousel">
-                                <div className="latest-prdouct__slider__item">
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-1.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Pava eléctrica</h6>
-                                            <span>$1700.00</span>
-                                        </div>
-                                    </a>
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-2.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Pan dulce</h6>
-                                            <span>$450.00</span>
-                                        </div>
-                                    </a>
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-3.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Chocolate con maní</h6>
-                                            <span>$160.00</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="latest-prdouct__slider__item">
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-1.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Sidra</h6>
-                                            <span>$260.00</span>
-                                        </div>
-                                    </a>
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-2.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Budín</h6>
-                                            <span>$120.00</span>
-                                        </div>
-                                    </a>
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-3.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Árbol de navidad</h6>
-                                            <span>$2400.00</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6">
-                        <div className="latest-product__text">
-                            <h4>Productos mejores puntuados</h4>
-                            <div className="latest-product__slider owl-carousel">
-                                <div className="latest-prdouct__slider__item">
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-1.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Televisor 50' 4k</h6>
-                                            <span>$38000.00</span>
-                                        </div>
-                                    </a>
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-2.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Krocks</h6>
-                                            <span>$3550.00</span>
-                                        </div>
-                                    </a>
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-3.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Toallas</h6>
-                                            <span>$270.00</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="latest-prdouct__slider__item">
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-1.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Computadora</h6>
-                                            <span>$45000.00</span>
-                                        </div>
-                                    </a>
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-2.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Lotería</h6>
-                                            <span>$230.00</span>
-                                        </div>
-                                    </a>
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-3.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Monitor</h6>
-                                            <span>$17000.00</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6">
-                        <div className="latest-product__text">
-                            <h4>Reseñas de Productos</h4>
-                            <div className="latest-product__slider owl-carousel">
-                                <div className="latest-prdouct__slider__item">
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-1.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Sábanas</h6>
-                                            <span>$2550.00</span>
-                                        </div>
-                                    </a>
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-2.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Naranjas</h6>
-                                            <span>$60.00</span>
-                                        </div>
-                                    </a>
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-3.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Carne de cerdo</h6>
-                                            <span>$170.00</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="latest-prdouct__slider__item">
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-1.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Frutillas</h6>
-                                            <span>$80.00</span>
-                                        </div>
-                                    </a>
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-2.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Pescado</h6>
-                                            <span>$90.00</span>
-                                        </div>
-                                    </a>
-                                    <a href="#" className="latest-product__item">
-                                        <div className="latest-product__item__pic">
-                                            <img src="img/latest-product/lp-3.jpg" alt=""/>
-                                        </div>
-                                        <div className="latest-product__item__text">
-                                            <h6>Milanesa de carne</h6>
-                                            <span>$120.00</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section className="from-blog spad">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-12">
-                        <div className="section-title from-blog__title">
-                            <h2>Últimas entradas del Blog</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-4 col-md-4 col-sm-6">
-                        <div className="blog__item">
-                            <div className="blog__item__pic">
-                                <img src="img/blog/blog-1.jpg" alt=""/>
-                            </div>
-                            <div className="blog__item__text">
-                                <ul>
-                                    <li><i className="fa fa-calendar-o"></i> Oct 20,2020</li>
-                                    <li><i className="fa fa-comment-o"></i> 5</li>
-                                </ul>
-                                <h5><a href="#">Receta de cocina fácil: Sopa paraguaya</a></h5>
-                                <p>Elaborada con productos cotidianos </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-4 col-sm-6">
-                        <div className="blog__item">
-                            <div className="blog__item__pic">
-                                <img src="img/blog/blog-2.jpg" alt=""/>
-                            </div>
-                            <div className="blog__item__text">
-                                <ul>
-                                    <li><i className="fa fa-calendar-o"></i> Oct 4,2020</li>
-                                    <li><i className="fa fa-comment-o"></i> 5</li>
-                                </ul>
-                                <h5><a href="#">Desayuno: Infusión con frutas y legumbres</a></h5>
-                                <p>Cómo preparar un desayuno completo y rico en fibras, enterate más en la nota. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-4 col-sm-6">
-                        <div className="blog__item">
-                            <div className="blog__item__pic">
-                                <img src="img/blog/blog-3.jpg" alt=""/>
-                            </div>
-                            <div className="blog__item__text">
-                                <ul>
-                                    <li><i className="fa fa-calendar-o"></i> Sep 14,2020</li>
-                                    <li><i className="fa fa-comment-o"></i> 5</li>
-                                </ul>
-                                <h5><a href="#">Argentina: los mejores productos agrícolas</a></h5>
-                                <p>La importancia de vivir en un país agrícola y aprovechar sus cultivos. </p>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <footer className="footer spad">
             <div className="container">
                 <div className="row">
@@ -695,7 +401,7 @@ class App extends Component {
                                 </a>
                             </div>
                             <ul>
-                                <li>Dirección: Avenida Corrientes 3405, CABA, Buenos Aires</li>
+                                <li>Dirección: Avenida Corrientes 3470, CABA, Buenos Aires, Argentina</li>
                                 <li>Teléfono: +54 11-2346-2346</li>
                                 <li>Email: contacto@superbuy.com</li>
                             </ul>
@@ -705,20 +411,13 @@ class App extends Component {
                         <div className="footer__widget">
                             <h6>Links útiles</h6>
                             <ul>
-                                <li><a href="#">Acerca de nosotros</a></li>
-                                <li><a href="#">Acerca de nuestra tienda</a></li>
-                                <li><a href="#">Seguro de compra</a></li>
-                                <li><a href="#">Información de entregas</a></li>
-                                <li><a href="#">Política de privacidad</a></li>
+                                <li><a href="#">Tienda</a></li>
+                                <li><a href="#">Consultas</a></li>
+                                <li><a href="#">Nuestro contacto</a></li>
                                 <li><a href="#">Mapa del sitio</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#">Quiénes somos</a></li>
-                                <li><a href="#">Nuestros servicios</a></li>
-                                <li><a href="#">Proyectos</a></li>
-                                <li><a href="#">Contacto</a></li>
-                                <li><a href="#">Innovación</a></li>
-                                <li><a href="#">Testimonios</a></li>
+                                <li><a href="#">¿Quiénes somos?</a></li>
                             </ul>
                         </div>
                     </div>
@@ -742,7 +441,7 @@ class App extends Component {
                     <div className="col-lg-12">
                         <div className="footer__copyright">
                             <div className="footer__copyright__text"><p>
-                                <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Este template fué hecho con <i className="fa fa-heart" aria-hidden="true"></i> por <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados
                                 </p></div>
                                 <div className="footer__copyright__payment"><img src="img/payment-item.png" alt=""/>
                             </div>
