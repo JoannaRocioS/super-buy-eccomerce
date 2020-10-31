@@ -1,0 +1,17 @@
+Para correr la aplicación:
+Instalar Git en tu computador.
+Crear un usuario.
+Copiar el link del repositorio en el botón verde (Code) que en esta página.
+Crear una carpeta en el escritorio, ingresar a la carpeta, abrir consola dentro y ejecutar el siguiente comando
+git clone https://github.com/alexandervaca/disenio-sistemas-tp3-front.git
+
+Te va a pedir usuario (mail) y contraseña de Git para autorizar.
+Descargar Node.js 
+https://nodejs.org/en/
+Para poder levantar el servidor
+Una vez que instaló ejecutar el siguiente comando en la carpeta que se creó (disenio-de-sistemas-tp3-front)
+git init
+npx create-react-app my-app 
+Entrar dentro de my-app y ejecutar:
+npm install
+npm start
